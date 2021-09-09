@@ -10,5 +10,9 @@ it('Haygor Testing ',()=>{
     // Set Wait 
     cy.get('[href="#"] > div',{timeout:6000}).click();
 
+   
+
 
 })
+
+
