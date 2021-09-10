@@ -17,6 +17,8 @@ it("Easy Ask",()=>{
     cy.get('.vue-treeselect__value-container > .vue-treeselect__input-container > .vue-treeselect__input').select("laptop");
     // cy.get('.vue-treeselect__input').select('1');
 
-   
 
 })
+
+
+
