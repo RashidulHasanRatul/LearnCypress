@@ -10,11 +10,10 @@ export class LoginPage{
 
     }
 
-    enterUsername(){
-
+    enterUsername()
+    {
 
         cy.get(this.loginPage_Username).type("test");
-
      
     }
 
