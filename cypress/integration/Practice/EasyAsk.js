@@ -13,10 +13,10 @@ it("Easy Ask",()=>{
     cy.get('.nav-dropdown.open > .nav-dropdown-items > :nth-child(3) > .nav-link').click();
 
     cy.get('.d-print-none > .btn').click();
+    cy.get('.vue-treeselect--single').click();
 
-    cy.get('.vue-treeselect__value-container > .vue-treeselect__input-container > .vue-treeselect__input').select("laptop");
-    // cy.get('.vue-treeselect__input').select('1');
 
+ 
 
 })
 

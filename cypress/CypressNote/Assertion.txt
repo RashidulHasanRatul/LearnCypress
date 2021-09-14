@@ -14,4 +14,9 @@ cy.get("tesdf").should("be.enabled")
 cy.get("tesdf").should("be.Visible").should('be.checked')
 
 // Radio Button assert (Negative Condition)
-cy.get("tesdf").should("be.Visible").should('not.be.checked')
+cy.get("tesdf").should("be.Visible").should('not.be.checked');
+
+// Value is Present or not Assert and Check The Radio Button
+cy.get('#checkbox1').check().should("be.checked").and("have.value","Cricket");
+
+
