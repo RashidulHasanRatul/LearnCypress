@@ -11,6 +11,9 @@ describe("This is Alert ",function () {
         cy.on('window:alert',(str)=>{
             expect(str).to.equal('Do you really want to delete this Customer?');
         })
+
+        
+        cy.on('window:confirm',()=>false)
         
 
     })
