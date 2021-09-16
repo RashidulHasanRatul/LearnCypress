@@ -37,9 +37,6 @@ it("Select Multiple dropdown  ",()=>{
 cy.get("#msdd").click();
 cy.get('.ui-corner-all').contains("Dutch").click();
 cy.get('.ui-corner-all').contains("English").click();
-
-
-
-
-  
+ 
 })
+
